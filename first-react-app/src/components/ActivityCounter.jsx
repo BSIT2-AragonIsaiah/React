@@ -5,7 +5,9 @@ function ActivityCounter() {
 
     return (
             <div>
-                <p>Completed Activities: {count}</p>
+                <br></br>
+                <h2>Completed Activities</h2>
+                <p>{count}</p>
 
                 <button onClick={() => setCount(count + 1)}>
                     +

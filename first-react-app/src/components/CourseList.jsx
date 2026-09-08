@@ -1,6 +1,9 @@
+import Course from "./Course";
+
 function CourseList() {
     return (
             <section>
+                <br></br>
                 <h2>Courses</h2>
                 <ul>
                     <Course name="Mobile App Dev" />

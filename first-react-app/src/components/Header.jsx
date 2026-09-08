@@ -1,9 +1,10 @@
 function Header() {
 
     return (
-            <div>
+            <header>
                 <h1>Student Portal</h1>
-            </div>
+                <p>Applications Development</p>
+            </header>
         );
     }
 export default Header;

@@ -4,7 +4,7 @@ import ActivityCounter from "./components/ActivityCounter";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import CourseList from "./components/CourseList";
-//import './App.css'
+import Announcement from "./components/Announcement";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,23 +21,13 @@ function App() {
       status="Active"
       />
 
-      <br></br>
-
-      <h2>Activities</h2>
-
+      <CourseList />
       <ActivityCounter />
 
-      <br></br>
-
-      <CourseList 
-        courses={
-            ["Applications Development", 
-              "Database Systems", 
-              "Software Engineering", 
-              "Web Development"
-            ]
-          } />
-
+      <Announcement
+      content="Midterm examination will be held next week."
+      />
+      
       <Footer />
     </div>
   );
