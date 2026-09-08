@@ -4,7 +4,7 @@ function CourseList() {
     return (
             <section>
                 <br></br>
-                <h2>Courses</h2>
+                <h2>My Courses</h2>
                 <ul>
                     <Course name="Mobile App Dev" />
                     <Course name="Software Engineering" />
