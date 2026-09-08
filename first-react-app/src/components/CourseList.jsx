@@ -1,13 +1,14 @@
-function CourseList(props) {
+function CourseList() {
     return (
-            <div>
+            <section>
                 <h2>Courses</h2>
                 <ul>
-                    {props.courses.map((course, index) => (
-                        <li key={index}>{course}</li>
-                    ))}
+                    <Course name="Mobile App Dev" />
+                    <Course name="Software Engineering" />
+                    <Course name="Database Systems" />
+                    <Course name="Application Development" />
                 </ul>
-            </div>
+            </section>
         );
     }
 export default CourseList;
