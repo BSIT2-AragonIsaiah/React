@@ -18,6 +18,7 @@ function App() {
       program="BSIT"
       year="2nd Year"
       stdid="2001-020-33"
+      status="Active"
       />
 
       <br></br>

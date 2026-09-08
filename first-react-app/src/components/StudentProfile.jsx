@@ -5,6 +5,7 @@ function StudentProfile(props) {
                 <p>{props.program}</p>
                 <p>{props.year}</p>
                 <p>{props.stdid}</p>
+                <p>{props.status}</p>
             </div>
         );
     }
